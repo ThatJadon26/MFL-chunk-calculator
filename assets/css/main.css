@@ -1,0 +1,9 @@
+/* Text selection from galaxite.net */
+::selection {
+	background:#e84e89;
+}
+
+body {
+	background:fixed linear-gradient(to right bottom,#fac62d,#e8aa51,#da723a,#64c450,#41974c,#2c6c51,#225947);
+	color:#da723a;
+}
