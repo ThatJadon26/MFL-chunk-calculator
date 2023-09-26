@@ -1,9 +1,91 @@
+ @import url("fonts.css");
 /* Text selection from galaxite.net */
 ::selection {
 	background:#e84e89;
 }
 
 body {
-	background:fixed linear-gradient(to right bottom,#fac62d,#e8aa51,#da723a,#64c450,#41974c,#2c6c51,#225947);
-	color:#da723a;
+	background:fixed linear-gradient(to bottom,#fac62d,#e8aa51,#da723a,#64c450,#41974c,#2c6c51,#225947);
+	color:#ffffff;
+}
+
+h1 {
+	font-size:2.25rem;
+	text-align:center;
+	font-family:Noto Sans;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+/* Buttons from minecraft.net, copyright of Mojang Studios */
+@media (prefers-reduced-motion:reduce) {
+    .minecraft-main-button {
+        -webkit-animation: none;
+        animation: none;
+        -webkit-transition: all .01s,opacity .01s .01s;
+        transition: all .01s,opacity .01s .01s
+    }
+}
+
+.minecraft-main-button {
+    margin: auto;
+    padding: 15px 30px;
+    border: none;
+    font-family: Noto Sans,sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: all .25s,opacity .75s .5s;
+    transition: all .25s,opacity .75s .5s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    pointer-events: all
+}
+
+.minecraft-main-button.button-green {
+    background: #3b8526;
+    -webkit-box-shadow: inset 0 4px #6bc349,inset 0 -4px #2a631c,0 4px rgba(0,0,0,.25);
+    box-shadow: inset 0 4px #6bc349,inset 0 -4px #2a631c,0 4px rgba(0,0,0,.25);
+    color: #fff;
+    text-shadow: 0 1px 0 #2a631c
+}
+
+.minecraft-main-button.button-green.light-hover:focus,.minecraft-main-button.button-green.light-hover:hover {
+    -webkit-transition: all .25s,opacity .75s .5s;
+    transition: all .25s,opacity .75s .5s;
+    background: #171615;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#e7eaef),to(#8d8e92));
+    background-image: linear-gradient(#e7eaef,#8d8e92);
+    color: #252525;
+    text-shadow: 0 1px 0 #e7eaef;
+    text-decoration: none;
+    border: none;
+    -webkit-box-shadow: inset 0 0 #6bc349,inset 0 0 #2a631c;
+    box-shadow: inset 0 0 #6bc349,inset 0 0 #2a631c
+}
+
+.minecraft-main-button.button-green.light-hover:active {
+    -webkit-transition: all .25s,opacity .75s .5s;
+    transition: all .25s,opacity .75s .5s;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#8d8e92),to(#e7eaef));
+    background-image: linear-gradient(#8d8e92,#e7eaef);
+    color: #252525;
+    text-shadow: 0 -1px 0 #e7eaef;
+    -webkit-box-shadow: inset 0 -2px #e7eaef,inset 0 2px #8d8e92;
+    box-shadow: inset 0 -2px #e7eaef,inset 0 2px #8d8e92
+}
+
+.minecraft-main-button.button-green.button-grey {
+    -webkit-box-shadow: 0 6px 0 0 #6bc349 inset,0 -6px 0 0 #2a631c inset;
+    box-shadow: inset 0 6px 0 0 #6bc349,inset 0 -6px 0 0 #2a631c
 }
