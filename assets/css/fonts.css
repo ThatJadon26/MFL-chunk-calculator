@@ -1,0 +1,24 @@
+/* Minecraft fonts are (c) of Mojang Studios */
+
+/* Webfont: MinecraftSeven */@font-face {
+    font-family: 'MinecraftSeven';
+    src: url('https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/clientlib-site/resources/resources/fonts/MinecraftSeven.eot'); /* IE9 Compat Modes */
+    src: url('https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/clientlib-site/resources/resources/fonts/MinecraftSeven.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/clientlib-site/resources/resources/fonts/MinecraftSeven.woff') format('woff'), /* Modern Browsers */
+         url('https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/clientlib-site/resources/resources/fonts/MinecraftSeven.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/clientlib-site/resources/resources/fonts/MinecraftSeven.svg#MinecraftSeven') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: MinecraftTen */@font-face {
+    font-family: 'MinecraftTen';
+    src: url('https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/clientlib-site/resources/resources/fonts/MinecraftTen.eot'); /* IE9 Compat Modes */
+    src: url('https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/clientlib-site/resources/resources/fonts/MinecraftTen.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/clientlib-site/resources/resources/fonts/MinecraftTen.woff') format('woff'), /* Modern Browsers */
+         url('https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/clientlib-site/resources/resources/fonts/MinecraftTen.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/clientlib-site/resources/resources/fonts/MinecraftTen.svg') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
