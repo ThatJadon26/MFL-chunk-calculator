@@ -15,11 +15,35 @@ h1 {
 	font-family:Noto Sans;
 }
 
+label {
+    font-size: x-large;
+    margin-left: 3%;
+}
+
+input {
+    padding: 13px 17px;
+    height: 1em;
+    border: 2px solid #aba09c;
+    margin-top: 12px;
+    margin-bottom: 7px;
+    font-family: MinecraftSeven;
+}
+
 .center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
   }
+
+.icon {
+    image-rendering:crisp-edges;
+    image-resolution:1.5em;
+}
+
+.icon.coin-amount {
+    display:inline-block;
+    background:url('/assets/img/Coin.png') no-repeat;
+}
 
 /* Buttons from minecraft.net, copyright of Mojang Studios */
 @media (prefers-reduced-motion:reduce) {
